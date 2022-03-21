@@ -1,0 +1,51 @@
+
+@import 'variables';
+
+
+header{
+    background-color: $main-color;
+
+    .nav-bar {
+        position: relative;
+        margin: 0 auto;
+        max-width: 1440px;
+        height: 50px;  
+
+        ul li{
+            display: inline-block;
+            margin: 15px;
+        }  
+     a {
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+         
+        &:hover {
+            border-bottom: 2px solid black;
+        }
+        }
+    }
+}        
+
+
+
+            
+        //  &:after {
+        //     content: '';
+        //     display: block;
+        //     width: 0;
+        //     height: 2px;
+        //     background: #000;
+        //     transition: width .3s;
+            
+            
+        //         &:hover::after {
+        //         border-bottom: 1px solid black;
+                
+           
+
+
+
+
+
+
