@@ -1,6 +1,5 @@
 import Axios from 'axios'
 import React, { useState } from 'react'
-// import { ApiPost } from "../common/Api"
 import '../scss/form.scss'
 
 const Form = () => {

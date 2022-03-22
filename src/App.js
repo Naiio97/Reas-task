@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route, Link} from 'react-router-dom';
+import { Routes, Route} from 'react-router-dom';
 import Inquiries from './components/Inquiries'
 import NavBar from './components/NavBar'
 import Form from './components/Form'
