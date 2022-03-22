@@ -9,10 +9,10 @@ return (
         <nav className="nav-bar">
             <ul className="nav-list">
             <li>
-                <Link to={"/"} className="nav-link">Domů</Link>
+                <Link to={"/"} className="nav-link">Reas</Link>
             </li>
             <li>
-                <Link to={"/properties "} className="nav-link">Poptávky</Link>
+                <Link to={"/Inquiries"} className="nav-link">Poptávky</Link>
             </li>
             </ul>
         </nav>

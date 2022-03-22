@@ -26,6 +26,11 @@ p{
 
 }
 
+.step{
+    margin: 20px 0 0 3px;
+    color: black;
+}
+
 input {
     margin-top: 2rem;
     font-family: 'roboto', sans-serif;
@@ -40,6 +45,19 @@ input {
         border-color: $main-color;
      }
 }
+
+select {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid rgb(210, 210, 210);
+    margin-top: 2rem;
+
+    &:focus { 
+        outline: none;
+        border-color: $main-color;
+     }
+}
+
 
 
 
@@ -58,4 +76,23 @@ button {
     &:hover {
         background:rgb(86, 153, 229) ;
     }
+    
 }
+
+.step-buttons {
+    display: flex;
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    margin: -100px auto;
+
+    .step-button {
+    margin: 10px
+    }
+
+    .step-button:disabled {
+          background: rgb(190, 190, 190);
+    }
+}
+
+

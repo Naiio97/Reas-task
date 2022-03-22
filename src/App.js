@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, Link} from 'react-router-dom';
-import Properties from './components/Properties'
+import Inquiries from './components/Inquiries'
 import NavBar from './components/NavBar'
 import Form from './components/Form'
 
@@ -14,7 +14,7 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="*" element={<Form/>} exact/>
-          <Route path="/properties" element={<Properties  />} />
+          <Route path="/Inquiries" element={<Inquiries  />} />
         </Routes>
         
       </div>
